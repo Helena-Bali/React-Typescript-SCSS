@@ -1,0 +1,94 @@
+.style {
+  background-color: aquamarine;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.buttonStyle {
+  padding: 2%;
+  border-radius: 45%;
+  font-size: 80%;
+  margin-left: 5%;
+  background-color: orchid;
+  border: none;
+}
+
+.inputStyle {
+  width: 70%;
+  padding: 2%;
+  border-radius: 20px;
+  font-size: 100%;
+  margin-top: 20%;
+  border: none;
+}
+
+.singleTodo {
+  border-radius: 50px;
+  margin: 10px 0;
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  width: 450px;
+  align-items: center;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.todoButtonStyle {
+  height: 1%;
+  padding: 2%;
+  border-radius: 45%;
+  border: none;
+  background-color: plum;
+  margin-left: 10px;
+  margin-top: 3%;
+}
+
+.line {
+  display: flex;
+}
+
+@media (max-width: 990px) {
+  .singleTodo {
+    width: 350px;
+  }
+  .todoButtonStyle {
+    padding: 3%;
+    border-radius: 45%;
+    border: none;
+    background-color: plum;
+    margin-left: 10px;
+    margin-top: 3%;
+  }
+}
+@media (max-width: 770px) {
+  .singleTodo {
+    width: 250px;
+    font-size: 80%;
+  }
+  .todoButtonStyle {
+    padding: 4%;
+    border-radius: 45%;
+    border: none;
+    background-color: plum;
+    margin-left: 10px;
+    margin-top: 3%;
+  }
+}
+@media (max-width: 440px) {
+  .singleTodo {
+    width: 150px;
+    font-size: 70%;
+  }
+  .todoButtonStyle {
+    padding: 5%;
+    border-radius: 45%;
+    border: none;
+    background-color: plum;
+    margin-left: 10px;
+    margin-top: 3%;
+  }
+}/*# sourceMappingURL=App.css.map */
